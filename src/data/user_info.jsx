@@ -2,7 +2,9 @@ const info = {
     // ============ MAIN DETAILS ============
     main: {
         name: "Thushan Madhushara",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure " +
+            "and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. " +
+            "I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Full-Stack Developer",
         photo: "src/assets/profilePhoto/profilePhoto.jpeg",
         email: "thushanmadhushara2@gmail.com",
@@ -12,6 +14,7 @@ const info = {
     socials: {
 		github: "https://github.com/thushanm",
 		linkedin: "www.linkedin.com/in/thushan-madhushara-502760222",
+        facebook: "web.facebook.com/search/top/?q=Thushan+Madhushara",
 
     },
 
@@ -123,7 +126,8 @@ const info = {
     // ============ CONTACT ============
     contact: {
         title: "Let's Get in Touch: Ways to Connect with Me",
-        description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at danielshan.balico@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
+        description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a " +
+            "specific question or comment, please feel free to email me directly at thushanmadhushara2@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
     },
 
     // ============ FOOTER ============

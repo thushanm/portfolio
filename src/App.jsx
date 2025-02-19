@@ -1,4 +1,4 @@
-
+import Contact from "./components/sections/Contact.jsx";
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-
+<Contact/>
     </>
   )
 }

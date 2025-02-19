@@ -1,8 +1,9 @@
-import user_info from "../../data/user_info.js";
 
-import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+
+import {  FaLinkedin } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import user_info from "../../data/user_info.jsx";
 
 function Contact() {
   return (
@@ -31,23 +32,6 @@ function Contact() {
           <span className="self-center">Follow on Facebook</span>
         </a>
 
-        {/* =========== X =========== */}
-        <a
-          href={user_info.socials.twitter}
-          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
-        >
-          <FaSquareXTwitter className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on X</span>
-        </a>
-        
-        {/* =========== INSTAGRAM =========== */}
-        <a
-          href={user_info.socials.instagram}
-          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
-        >
-          <FaInstagram className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on Instagram</span>
-        </a>
 
         {/* =========== LINKEDIN =========== */}
         <a
