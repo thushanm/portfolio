@@ -1,11 +1,11 @@
 const info = {
     // ============ MAIN DETAILS ============
     main: {
-        name: "Daniel Shan Balico",
+        name: "Thushan Madhushara",
         description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Full-Stack Developer",
-        photo: "../photo.webp",
-        email: "danielshan.balico@gmail.com",
+        photo: "src/assets/profilePhoto/profilePhoto.jpeg",
+        email: "thushanmadhushara2@gmail.com",
     },
 
     // ============ SOCIAL LINKS ============
