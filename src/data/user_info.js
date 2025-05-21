@@ -31,8 +31,13 @@ const info = {
     // ============ EDUCATION ============
     education: [
         {
+            school: "Cardiff Metropolitan University",
+            degree: "Bachelor of Science In Software Engineer",
+            duration: "2025 - 2026",
+            image: "cardeff uni.png"
+        } ,{
             school: "IJSE - Institute of Software Engineering",
-            degree: "Bachelor of Science in Computer Science",
+            degree: "Higher National Diploma In Computer Science",
             duration: "2022 - 2024",
             image: "ijse.png"
         }, {
