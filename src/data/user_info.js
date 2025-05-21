@@ -95,7 +95,7 @@ const info = {
             "Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
     },
 
-    // ============ FOOTER ============
+    // ============ FOOTER =========
     footer: "© 2025 Thushan Madhushara. All Rights Reserved"
 }
 
