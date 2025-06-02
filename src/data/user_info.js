@@ -88,7 +88,7 @@ const info = {
 
     // ============ CONTACT ============
     contact: {
-        title: "Let's Get in Touch: Ways to Connect with Me",
+        title: "Let's Get in Touch: Ways to Connect with Me.",
         description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. " +
             "If you have a specific question or comment, please feel free to email me directly at thushanmadhushara2@gmail.com. " +
             "I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. " +
