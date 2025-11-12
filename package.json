@@ -9,9 +9,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "vite build --base=/portfolio/",
-    "deploy": "gh-pages -d dist",
-    "wp:start": "docker-compose up -d wordpress db"
+    "predeploy": "vite build --base",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "framer-motion": "^12.15.0",

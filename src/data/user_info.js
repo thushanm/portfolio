@@ -72,6 +72,18 @@ const info = {
                 "Mentored by senior developers on best practices and code optimization.",
             ]
         },
+        {
+            position: "Associate Software Engineer",
+            company: "CodeLK",
+            duration: "Sep 2025 (Still Work)",
+            image: "codeLk.png",
+            descriptions: [
+                "Completed an extensive training program in full-stack web development.",
+                "Actively contributed to the ongoing development of a web application.",
+                "Mentored by senior developers on best practices and code optimization.",
+            ]
+        },
+
 
     ],
 
