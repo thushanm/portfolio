@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e61f5fb-4d01-4d2f-bdb6-bf65b511ab34" name="Changes" comment="change">
+    <list default="true" id="3e61f5fb-4d01-4d2f-bdb6-bf65b511ab34" name="Changes" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/user_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/user_info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/project/portfolio/portfolio/dist/assets",
+    "last_opened_file_path": "E:/project/portfolio/portfolio/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,13 +63,16 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\portfolio\portfolio\public" />
+      <recent name="E:\project\portfolio\portfolio\dist" />
+      <recent name="E:\project\portfolio\portfolio\dist\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\portfolio\portfolio\dist" />
       <recent name="E:\project\portfolio\portfolio\public" />
       <recent name="E:\project\portfolio\portfolio\public\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -115,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.build" />
       </list>
@@ -143,7 +143,7 @@
       <workItem from="1748934505651" duration="6136000" />
       <workItem from="1749705590658" duration="719000" />
       <workItem from="1749719676760" duration="983000" />
-      <workItem from="1762962091999" duration="341000" />
+      <workItem from="1762962091999" duration="1763000" />
     </task>
     <task id="LOCAL-00001" summary="upadte education">
       <option name="closed" value="true" />
@@ -169,15 +169,35 @@
       <option name="project" value="LOCAL" />
       <updated>1747844267162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes">
+      <option name="closed" value="true" />
+      <created>1762962639444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762962639444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upadte education" />
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
