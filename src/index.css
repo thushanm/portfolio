@@ -4,7 +4,6 @@
 
 :root {
   font-family: "Heebo", sans-serif;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,18 +11,49 @@
   scroll-behavior: smooth;
 }
 
-/* width */
+/* Selection style */
+::selection {
+  background-color: rgba(225, 29, 72, 0.2);
+  color: #e11d48;
+}
+
+/* Modern gradient scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #991b1b;
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #e11d48, #7c3aed);
+  border-radius: 9999px;
 }
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #be123c, #6d28d9);
+}
+
+/* Custom premium classes */
+.glassmorphism {
+  @apply backdrop-blur-md bg-white/70 dark:bg-zinc-950/70 border border-zinc-200/50 dark:border-zinc-800/50;
+}
+
+.glassmorphism-card {
+  @apply backdrop-blur-lg bg-white/40 dark:bg-zinc-900/40 border border-zinc-200/30 dark:border-zinc-800/30 transition-all duration-500 shadow-sm hover:shadow-xl hover:shadow-cyber-crimson/5 hover:dark:shadow-cyber-crimson/10;
+}
+
+.glow-orb {
+  @apply absolute rounded-full filter blur-[120px] opacity-40 dark:opacity-30 mix-blend-multiply dark:mix-blend-screen pointer-events-none;
+}
+
+/* Custom animated gradient text */
+.text-gradient-rose-violet {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-cyber-crimson via-fuchsia-500 to-cyber-violet;
+}
+
+.text-gradient-blue-violet {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-indigo-500 to-cyber-violet;
+}
